@@ -1,0 +1,150 @@
+.page-container{
+    width: 400px;
+    background-color: #0063c6;
+    padding-top: 10px;
+    border: 0.2px solid rgba(114, 114, 114, 0.493);   
+}
+.sellItems-container{
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sellItems-image{
+    width: 380px;
+    height: 150px;
+}
+
+.categories{
+    width: '100%';
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list-title{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: grey;
+}
+
+.list-seeAll{
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b620e0;
+    cursor: pointer;
+}
+.horizontal-list-categories,
+.horizontal-list-newProducts{
+    width: '100%';
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    overflow-x: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.categories-item{
+    width: 119px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: #eceef0;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px; 
+}
+.categories-item-image{
+    width: 90px;
+    height: 90px;
+}
+
+.newProducts-item{
+    width: 138px;
+    border-radius: 15px;
+    background-color: #eceef0;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgba(114, 114, 114, 0.493);   
+    margin-left: 15px; 
+}
+.newProducts-item-image{
+    width: 138px;
+    height: 100px;
+}
+.newProducts-item-info{
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: start;
+    padding-left: 10px;
+}
+.newProducts-item-title{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+.newProducts-item-price{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #fa6400;
+}
+
+.form-header{
+    width: '100%';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 13px;
+}
+
+.form-search{
+    width: 300px;
+    height: 40px;
+    opacity: 0.3;
+    border-radius: 7px;
+    background-color: black;
+    margin-left: 15px;
+    color: white;
+    padding-left: 20px;
+}
+.form-search::placeholder{
+    color: white;
+    opacity: 1;
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+}
+
